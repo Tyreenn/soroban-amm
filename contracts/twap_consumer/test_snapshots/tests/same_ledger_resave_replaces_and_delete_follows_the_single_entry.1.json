@@ -1077,7 +1077,7 @@
             },
             "ext": "v0"
           },
-          4095
+          2419200
         ]
       ],
       [
@@ -1125,7 +1125,7 @@
             },
             "ext": "v0"
           },
-          4095
+          2419200
         ]
       ],
       [
@@ -1371,7 +1371,7 @@
             },
             "ext": "v0"
           },
-          4095
+          2419200
         ]
       ],
       [
@@ -1449,7 +1449,7 @@
             "key": {
               "vec": [
                 {
-                  "symbol": "TrackedPoolsPersistent"
+                  "symbol": "TrackedPools"
                 }
               ]
             },
@@ -1466,7 +1466,7 @@
                 "key": {
                   "vec": [
                     {
-                      "symbol": "TrackedPoolsPersistent"
+                      "symbol": "TrackedPools"
                     }
                   ]
                 },
@@ -1474,7 +1474,28 @@
                 "val": {
                   "vec": [
                     {
-                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4"
+                      "map": [
+                        {
+                          "key": {
+                            "symbol": "address"
+                          },
+                          "val": {
+                            "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4"
+                          }
+                        },
+                        {
+                          "key": {
+                            "symbol": "pool_type"
+                          },
+                          "val": {
+                            "vec": [
+                              {
+                                "symbol": "Amm"
+                              }
+                            ]
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1527,7 +1548,7 @@
             },
             "ext": "v0"
           },
-          4095
+          518400
         ]
       ],
       [
@@ -2097,7 +2118,7 @@
             },
             "ext": "v0"
           },
-          518400
+          2419200
         ]
       ]
     ]
@@ -3604,7 +3625,14 @@
               }
             ],
             "data": {
-              "u64": 10000
+              "vec": [
+                {
+                  "u32": 1
+                },
+                {
+                  "u64": 10000
+                }
+              ]
             }
           }
         }

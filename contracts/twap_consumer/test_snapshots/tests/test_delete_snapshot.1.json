@@ -1090,7 +1090,7 @@
             },
             "ext": "v0"
           },
-          4095
+          2419200
         ]
       ],
       [
@@ -1138,7 +1138,7 @@
             },
             "ext": "v0"
           },
-          4095
+          2419200
         ]
       ],
       [
@@ -1394,7 +1394,7 @@
             "key": {
               "vec": [
                 {
-                  "symbol": "SnapshotTimestamps"
+                  "symbol": "Snapshots"
                 },
                 {
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4"
@@ -1414,7 +1414,7 @@
                 "key": {
                   "vec": [
                     {
-                      "symbol": "SnapshotTimestamps"
+                      "symbol": "Snapshots"
                     },
                     {
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4"
@@ -1439,7 +1439,7 @@
             "key": {
               "vec": [
                 {
-                  "symbol": "TrackedPoolsPersistent"
+                  "symbol": "TrackedPools"
                 }
               ]
             },
@@ -1456,7 +1456,7 @@
                 "key": {
                   "vec": [
                     {
-                      "symbol": "TrackedPoolsPersistent"
+                      "symbol": "TrackedPools"
                     }
                   ]
                 },
@@ -1464,7 +1464,28 @@
                 "val": {
                   "vec": [
                     {
-                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4"
+                      "map": [
+                        {
+                          "key": {
+                            "symbol": "address"
+                          },
+                          "val": {
+                            "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4"
+                          }
+                        },
+                        {
+                          "key": {
+                            "symbol": "pool_type"
+                          },
+                          "val": {
+                            "vec": [
+                              {
+                                "symbol": "Amm"
+                              }
+                            ]
+                          }
+                        }
+                      ]
                     }
                   ]
                 }

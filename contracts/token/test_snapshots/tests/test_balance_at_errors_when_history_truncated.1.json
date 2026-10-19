@@ -59512,7 +59512,7 @@
             },
             "ext": "v0"
           },
-          4195
+          2419300
         ]
       ],
       [
@@ -141817,21 +141817,16 @@
           "v0": {
             "topics": [
               {
-                "symbol": "log"
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "balance_at"
               }
             ],
             "data": {
-              "vec": [
-                {
-                  "string": "caught panic 'balance_at: ledger 100 predates retained checkpoint history (evicted at MAX_CHECKPOINTS); balance unavailable' from contract function 'Symbol(obj#1113207)'"
-                },
-                {
-                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M"
-                },
-                {
-                  "u32": 100
-                }
-              ]
+              "error": {
+                "contract": 10
+              }
             }
           }
         }
@@ -141851,12 +141846,12 @@
               },
               {
                 "error": {
-                  "wasm_vm": "invalid_action"
+                  "contract": 10
                 }
               }
             ],
             "data": {
-              "string": "caught error from function"
+              "string": "escalating Ok(ScErrorType::Contract) frame-exit to Err"
             }
           }
         }
@@ -141876,7 +141871,7 @@
               },
               {
                 "error": {
-                  "wasm_vm": "invalid_action"
+                  "contract": 10
                 }
               }
             ],
