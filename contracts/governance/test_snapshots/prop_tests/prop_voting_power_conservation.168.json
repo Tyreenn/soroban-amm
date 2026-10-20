@@ -79,7 +79,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 5717
+                    "lo": 444
                   }
                 }
               ]
@@ -104,7 +104,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 7933
+                    "lo": 2365
                   }
                 }
               ]
@@ -129,7 +129,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 5343
+                    "lo": 172
                   }
                 }
               ]
@@ -154,7 +154,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 1221
+                    "lo": 6672
                   }
                 }
               ]
@@ -179,7 +179,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 4309
+                    "lo": 6308
                   }
                 }
               ]
@@ -204,7 +204,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 1209
+                    "lo": 1501
                   }
                 }
               ]
@@ -264,7 +264,7 @@
                 {
                   "vec": [
                     {
-                      "symbol": "For"
+                      "symbol": "Abstain"
                     }
                   ]
                 }
@@ -324,7 +324,7 @@
                 {
                   "vec": [
                     {
-                      "symbol": "Abstain"
+                      "symbol": "For"
                     }
                   ]
                 }
@@ -384,7 +384,7 @@
                 {
                   "vec": [
                     {
-                      "symbol": "For"
+                      "symbol": "Against"
                     }
                   ]
                 }
@@ -805,7 +805,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 5717
+                    "lo": 444
                   }
                 }
               }
@@ -853,7 +853,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 7933
+                    "lo": 2365
                   }
                 }
               }
@@ -901,7 +901,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 5343
+                    "lo": 172
                   }
                 }
               }
@@ -949,7 +949,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 1221
+                    "lo": 6672
                   }
                 }
               }
@@ -997,7 +997,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 4309
+                    "lo": 6308
                   }
                 }
               }
@@ -1045,7 +1045,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 1209
+                    "lo": 1501
                   }
                 }
               }
@@ -1062,10 +1062,13 @@
             "key": {
               "vec": [
                 {
-                  "symbol": "Checkpoints"
+                  "symbol": "CheckpointPage"
                 },
                 {
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
+                },
+                {
+                  "u32": 0
                 }
               ]
             },
@@ -1082,10 +1085,13 @@
                 "key": {
                   "vec": [
                     {
-                      "symbol": "Checkpoints"
+                      "symbol": "CheckpointPage"
                     },
                     {
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
+                    },
+                    {
+                      "u32": 0
                     }
                   ]
                 },
@@ -1101,7 +1107,7 @@
                           "val": {
                             "i128": {
                               "hi": 0,
-                              "lo": 5717
+                              "lo": 444
                             }
                           }
                         },
@@ -1131,7 +1137,444 @@
             "key": {
               "vec": [
                 {
-                  "symbol": "Checkpoints"
+                  "symbol": "CheckpointPage"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQG5"
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "CheckpointPage"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQG5"
+                    },
+                    {
+                      "u32": 0
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "vec": [
+                    {
+                      "map": [
+                        {
+                          "key": {
+                            "symbol": "balance"
+                          },
+                          "val": {
+                            "i128": {
+                              "hi": 0,
+                              "lo": 2365
+                            }
+                          }
+                        },
+                        {
+                          "key": {
+                            "symbol": "ledger"
+                          },
+                          "val": {
+                            "u32": 0
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          2419200
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "CheckpointPage"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATYON"
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "CheckpointPage"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATYON"
+                    },
+                    {
+                      "u32": 0
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "vec": [
+                    {
+                      "map": [
+                        {
+                          "key": {
+                            "symbol": "balance"
+                          },
+                          "val": {
+                            "i128": {
+                              "hi": 0,
+                              "lo": 172
+                            }
+                          }
+                        },
+                        {
+                          "key": {
+                            "symbol": "ledger"
+                          },
+                          "val": {
+                            "u32": 0
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          2419200
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "CheckpointPage"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAX5"
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "CheckpointPage"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAX5"
+                    },
+                    {
+                      "u32": 0
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "vec": [
+                    {
+                      "map": [
+                        {
+                          "key": {
+                            "symbol": "balance"
+                          },
+                          "val": {
+                            "i128": {
+                              "hi": 0,
+                              "lo": 6672
+                            }
+                          }
+                        },
+                        {
+                          "key": {
+                            "symbol": "ledger"
+                          },
+                          "val": {
+                            "u32": 0
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          2419200
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "CheckpointPage"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXI7N"
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "CheckpointPage"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXI7N"
+                    },
+                    {
+                      "u32": 0
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "vec": [
+                    {
+                      "map": [
+                        {
+                          "key": {
+                            "symbol": "balance"
+                          },
+                          "val": {
+                            "i128": {
+                              "hi": 0,
+                              "lo": 6308
+                            }
+                          }
+                        },
+                        {
+                          "key": {
+                            "symbol": "ledger"
+                          },
+                          "val": {
+                            "u32": 0
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          2419200
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "CheckpointPage"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYRE5"
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "CheckpointPage"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYRE5"
+                    },
+                    {
+                      "u32": 0
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "vec": [
+                    {
+                      "map": [
+                        {
+                          "key": {
+                            "symbol": "balance"
+                          },
+                          "val": {
+                            "i128": {
+                              "hi": 0,
+                              "lo": 1501
+                            }
+                          }
+                        },
+                        {
+                          "key": {
+                            "symbol": "ledger"
+                          },
+                          "val": {
+                            "u32": 0
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          2419200
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "CheckpointTracker"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "CheckpointTracker"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "start_page"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "total_count"
+                      },
+                      "val": {
+                        "u32": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          2419200
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "CheckpointTracker"
                 },
                 {
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQG5"
@@ -1151,7 +1594,7 @@
                 "key": {
                   "vec": [
                     {
-                      "symbol": "Checkpoints"
+                      "symbol": "CheckpointTracker"
                     },
                     {
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQG5"
@@ -1160,29 +1603,22 @@
                 },
                 "durability": "persistent",
                 "val": {
-                  "vec": [
+                  "map": [
                     {
-                      "map": [
-                        {
-                          "key": {
-                            "symbol": "balance"
-                          },
-                          "val": {
-                            "i128": {
-                              "hi": 0,
-                              "lo": 7933
-                            }
-                          }
-                        },
-                        {
-                          "key": {
-                            "symbol": "ledger"
-                          },
-                          "val": {
-                            "u32": 0
-                          }
-                        }
-                      ]
+                      "key": {
+                        "symbol": "start_page"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "total_count"
+                      },
+                      "val": {
+                        "u32": 1
+                      }
                     }
                   ]
                 }
@@ -1200,7 +1636,7 @@
             "key": {
               "vec": [
                 {
-                  "symbol": "Checkpoints"
+                  "symbol": "CheckpointTracker"
                 },
                 {
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATYON"
@@ -1220,7 +1656,7 @@
                 "key": {
                   "vec": [
                     {
-                      "symbol": "Checkpoints"
+                      "symbol": "CheckpointTracker"
                     },
                     {
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATYON"
@@ -1229,29 +1665,22 @@
                 },
                 "durability": "persistent",
                 "val": {
-                  "vec": [
+                  "map": [
                     {
-                      "map": [
-                        {
-                          "key": {
-                            "symbol": "balance"
-                          },
-                          "val": {
-                            "i128": {
-                              "hi": 0,
-                              "lo": 5343
-                            }
-                          }
-                        },
-                        {
-                          "key": {
-                            "symbol": "ledger"
-                          },
-                          "val": {
-                            "u32": 0
-                          }
-                        }
-                      ]
+                      "key": {
+                        "symbol": "start_page"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "total_count"
+                      },
+                      "val": {
+                        "u32": 1
+                      }
                     }
                   ]
                 }
@@ -1269,7 +1698,7 @@
             "key": {
               "vec": [
                 {
-                  "symbol": "Checkpoints"
+                  "symbol": "CheckpointTracker"
                 },
                 {
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAX5"
@@ -1289,7 +1718,7 @@
                 "key": {
                   "vec": [
                     {
-                      "symbol": "Checkpoints"
+                      "symbol": "CheckpointTracker"
                     },
                     {
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAX5"
@@ -1298,29 +1727,22 @@
                 },
                 "durability": "persistent",
                 "val": {
-                  "vec": [
+                  "map": [
                     {
-                      "map": [
-                        {
-                          "key": {
-                            "symbol": "balance"
-                          },
-                          "val": {
-                            "i128": {
-                              "hi": 0,
-                              "lo": 1221
-                            }
-                          }
-                        },
-                        {
-                          "key": {
-                            "symbol": "ledger"
-                          },
-                          "val": {
-                            "u32": 0
-                          }
-                        }
-                      ]
+                      "key": {
+                        "symbol": "start_page"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "total_count"
+                      },
+                      "val": {
+                        "u32": 1
+                      }
                     }
                   ]
                 }
@@ -1338,7 +1760,7 @@
             "key": {
               "vec": [
                 {
-                  "symbol": "Checkpoints"
+                  "symbol": "CheckpointTracker"
                 },
                 {
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXI7N"
@@ -1358,7 +1780,7 @@
                 "key": {
                   "vec": [
                     {
-                      "symbol": "Checkpoints"
+                      "symbol": "CheckpointTracker"
                     },
                     {
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXI7N"
@@ -1367,29 +1789,22 @@
                 },
                 "durability": "persistent",
                 "val": {
-                  "vec": [
+                  "map": [
                     {
-                      "map": [
-                        {
-                          "key": {
-                            "symbol": "balance"
-                          },
-                          "val": {
-                            "i128": {
-                              "hi": 0,
-                              "lo": 4309
-                            }
-                          }
-                        },
-                        {
-                          "key": {
-                            "symbol": "ledger"
-                          },
-                          "val": {
-                            "u32": 0
-                          }
-                        }
-                      ]
+                      "key": {
+                        "symbol": "start_page"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "total_count"
+                      },
+                      "val": {
+                        "u32": 1
+                      }
                     }
                   ]
                 }
@@ -1407,7 +1822,7 @@
             "key": {
               "vec": [
                 {
-                  "symbol": "Checkpoints"
+                  "symbol": "CheckpointTracker"
                 },
                 {
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYRE5"
@@ -1427,7 +1842,7 @@
                 "key": {
                   "vec": [
                     {
-                      "symbol": "Checkpoints"
+                      "symbol": "CheckpointTracker"
                     },
                     {
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYRE5"
@@ -1436,29 +1851,22 @@
                 },
                 "durability": "persistent",
                 "val": {
-                  "vec": [
+                  "map": [
                     {
-                      "map": [
-                        {
-                          "key": {
-                            "symbol": "balance"
-                          },
-                          "val": {
-                            "i128": {
-                              "hi": 0,
-                              "lo": 1209
-                            }
-                          }
-                        },
-                        {
-                          "key": {
-                            "symbol": "ledger"
-                          },
-                          "val": {
-                            "u32": 0
-                          }
-                        }
-                      ]
+                      "key": {
+                        "symbol": "start_page"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "total_count"
+                      },
+                      "val": {
+                        "u32": 1
+                      }
                     }
                   ]
                 }
@@ -1513,7 +1921,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 5717
+                    "lo": 444
                   }
                 }
               }
@@ -1567,7 +1975,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 5343
+                    "lo": 172
                   }
                 }
               }
@@ -1621,7 +2029,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 1221
+                    "lo": 6672
                   }
                 }
               }
@@ -1675,7 +2083,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 4309
+                    "lo": 6308
                   }
                 }
               }
@@ -1729,7 +2137,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 1209
+                    "lo": 1501
                   }
                 }
               }
@@ -2022,7 +2430,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 5717
+                    "lo": 444
                   }
                 }
               }
@@ -2070,7 +2478,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 5343
+                    "lo": 172
                   }
                 }
               }
@@ -2118,7 +2526,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 1221
+                    "lo": 6672
                   }
                 }
               }
@@ -2166,7 +2574,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 4309
+                    "lo": 6308
                   }
                 }
               }
@@ -2214,7 +2622,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 1209
+                    "lo": 1501
                   }
                 }
               }
@@ -2318,7 +2726,7 @@
                         "val": {
                           "i128": {
                             "hi": 0,
-                            "lo": 25732
+                            "lo": 17462
                           }
                         }
                       }
@@ -2812,7 +3220,7 @@
                 "val": {
                   "vec": [
                     {
-                      "symbol": "VotedFor"
+                      "symbol": "VotedAbstain"
                     }
                   ]
                 }
@@ -2922,7 +3330,7 @@
                 "val": {
                   "vec": [
                     {
-                      "symbol": "VotedAbstain"
+                      "symbol": "VotedFor"
                     }
                   ]
                 }
@@ -3032,7 +3440,7 @@
                 "val": {
                   "vec": [
                     {
-                      "symbol": "VotedFor"
+                      "symbol": "VotedAgainst"
                     }
                   ]
                 }
@@ -3087,7 +3495,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 5717
+                    "lo": 444
                   }
                 }
               }
@@ -3141,7 +3549,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 5343
+                    "lo": 172
                   }
                 }
               }
@@ -3195,7 +3603,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 1221
+                    "lo": 6672
                   }
                 }
               }
@@ -3249,7 +3657,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 4309
+                    "lo": 6308
                   }
                 }
               }
@@ -3303,7 +3711,7 @@
                 "val": {
                   "i128": {
                     "hi": 0,
-                    "lo": 1209
+                    "lo": 1501
                   }
                 }
               }
@@ -3437,7 +3845,7 @@
                       "val": {
                         "i128": {
                           "hi": 0,
-                          "lo": 25732
+                          "lo": 17462
                         }
                       }
                     },
@@ -3484,7 +3892,7 @@
                       "val": {
                         "i128": {
                           "hi": 0,
-                          "lo": 10873
+                          "lo": 6924
                         }
                       }
                     },
@@ -3495,7 +3903,7 @@
                       "val": {
                         "i128": {
                           "hi": 0,
-                          "lo": 0
+                          "lo": 1501
                         }
                       }
                     },
@@ -3506,8 +3914,84 @@
                       "val": {
                         "i128": {
                           "hi": 0,
-                          "lo": 6926
+                          "lo": 6672
                         }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          259200
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "ProposalParams"
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "ProposalParams"
+                    },
+                    {
+                      "u32": 0
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "quorum_bps"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 1000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "quorum_decay_rate_bps_per_day"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 0
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "timelock_secs"
+                      },
+                      "val": {
+                        "u64": 172800
                       }
                     }
                   ]
@@ -4548,6 +5032,61 @@
       "event": {
         "ext": "v0",
         "contract_id": "0000000000000000000000000000000000000000000000000000000000000006",
+        "type_": "contract",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "initialized"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 1
+                },
+                {
+                  "vec": [
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4"
+                    },
+                    {
+                      "u64": 604800
+                    },
+                    {
+                      "u64": 172800
+                    },
+                    {
+                      "i128": {
+                        "hi": 0,
+                        "lo": 1000
+                      }
+                    },
+                    {
+                      "i128": {
+                        "hi": 0,
+                        "lo": 0
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000006",
         "type_": "diagnostic",
         "body": {
           "v0": {
@@ -4638,7 +5177,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 5717
+                    "lo": 444
                   }
                 }
               ]
@@ -4695,7 +5234,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 7933
+                    "lo": 2365
                   }
                 }
               ]
@@ -4752,7 +5291,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 5343
+                    "lo": 172
                   }
                 }
               ]
@@ -4809,7 +5348,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 1221
+                    "lo": 6672
                   }
                 }
               ]
@@ -4866,7 +5405,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 4309
+                    "lo": 6308
                   }
                 }
               ]
@@ -4923,7 +5462,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 1209
+                    "lo": 1501
                   }
                 }
               ]
@@ -5039,7 +5578,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 25732
+                "lo": 17462
               }
             }
           }
@@ -5091,7 +5630,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 5717
+                "lo": 444
               }
             }
           }
@@ -5204,7 +5743,7 @@
                 {
                   "vec": [
                     {
-                      "symbol": "For"
+                      "symbol": "Abstain"
                     }
                   ]
                 }
@@ -5266,7 +5805,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 5717
+                "lo": 444
               }
             }
           }
@@ -5318,7 +5857,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 5717
+                "lo": 444
               }
             }
           }
@@ -5352,7 +5891,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 5717
+                    "lo": 444
                   }
                 }
               ]
@@ -5411,14 +5950,14 @@
                     {
                       "vec": [
                         {
-                          "symbol": "For"
+                          "symbol": "Abstain"
                         }
                       ]
                     },
                     {
                       "i128": {
                         "hi": 0,
-                        "lo": 5717
+                        "lo": 444
                       }
                     }
                   ]
@@ -5495,7 +6034,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 5717
+                "lo": 444
               }
             }
           }
@@ -5594,7 +6133,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 5343
+                "lo": 172
               }
             }
           }
@@ -5646,7 +6185,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 5343
+                "lo": 172
               }
             }
           }
@@ -5680,7 +6219,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 5343
+                    "lo": 172
                   }
                 }
               ]
@@ -5746,7 +6285,7 @@
                     {
                       "i128": {
                         "hi": 0,
-                        "lo": 5343
+                        "lo": 172
                       }
                     }
                   ]
@@ -5823,7 +6362,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 5343
+                "lo": 172
               }
             }
           }
@@ -5860,7 +6399,7 @@
                 {
                   "vec": [
                     {
-                      "symbol": "Abstain"
+                      "symbol": "For"
                     }
                   ]
                 }
@@ -5922,7 +6461,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 1221
+                "lo": 6672
               }
             }
           }
@@ -5974,7 +6513,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 1221
+                "lo": 6672
               }
             }
           }
@@ -6008,7 +6547,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 1221
+                    "lo": 6672
                   }
                 }
               ]
@@ -6067,14 +6606,14 @@
                     {
                       "vec": [
                         {
-                          "symbol": "Abstain"
+                          "symbol": "For"
                         }
                       ]
                     },
                     {
                       "i128": {
                         "hi": 0,
-                        "lo": 1221
+                        "lo": 6672
                       }
                     }
                   ]
@@ -6151,7 +6690,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 1221
+                "lo": 6672
               }
             }
           }
@@ -6250,7 +6789,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 4309
+                "lo": 6308
               }
             }
           }
@@ -6302,7 +6841,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 4309
+                "lo": 6308
               }
             }
           }
@@ -6336,7 +6875,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 4309
+                    "lo": 6308
                   }
                 }
               ]
@@ -6402,7 +6941,7 @@
                     {
                       "i128": {
                         "hi": 0,
-                        "lo": 4309
+                        "lo": 6308
                       }
                     }
                   ]
@@ -6479,7 +7018,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 4309
+                "lo": 6308
               }
             }
           }
@@ -6516,7 +7055,7 @@
                 {
                   "vec": [
                     {
-                      "symbol": "For"
+                      "symbol": "Against"
                     }
                   ]
                 }
@@ -6578,7 +7117,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 1209
+                "lo": 1501
               }
             }
           }
@@ -6630,7 +7169,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 1209
+                "lo": 1501
               }
             }
           }
@@ -6664,7 +7203,7 @@
                 {
                   "i128": {
                     "hi": 0,
-                    "lo": 1209
+                    "lo": 1501
                   }
                 }
               ]
@@ -6723,14 +7262,14 @@
                     {
                       "vec": [
                         {
-                          "symbol": "For"
+                          "symbol": "Against"
                         }
                       ]
                     },
                     {
                       "i128": {
                         "hi": 0,
-                        "lo": 1209
+                        "lo": 1501
                       }
                     }
                   ]
@@ -6807,7 +7346,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 1209
+                "lo": 1501
               }
             }
           }
@@ -6945,7 +7484,7 @@
                   "val": {
                     "i128": {
                       "hi": 0,
-                      "lo": 25732
+                      "lo": 17462
                     }
                   }
                 },
@@ -6992,7 +7531,7 @@
                   "val": {
                     "i128": {
                       "hi": 0,
-                      "lo": 10873
+                      "lo": 6924
                     }
                   }
                 },
@@ -7003,7 +7542,7 @@
                   "val": {
                     "i128": {
                       "hi": 0,
-                      "lo": 0
+                      "lo": 1501
                     }
                   }
                 },
@@ -7014,7 +7553,7 @@
                   "val": {
                     "i128": {
                       "hi": 0,
-                      "lo": 6926
+                      "lo": 6672
                     }
                   }
                 }
@@ -7069,7 +7608,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 5717
+                "lo": 444
               }
             }
           }
@@ -7173,7 +7712,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 5343
+                "lo": 172
               }
             }
           }
@@ -7225,7 +7764,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 1221
+                "lo": 6672
               }
             }
           }
@@ -7277,7 +7816,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 4309
+                "lo": 6308
               }
             }
           }
@@ -7329,7 +7868,7 @@
             "data": {
               "i128": {
                 "hi": 0,
-                "lo": 1209
+                "lo": 1501
               }
             }
           }
